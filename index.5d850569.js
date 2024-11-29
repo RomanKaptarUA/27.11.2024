@@ -1,2 +1,0 @@
-!function(){var n=function(n){return crypto.getRandomValues(new Uint8Array(n))},t=function(n,t,o){var r=(2<<Math.log2(n.length-1))-1,e=-~(1.6*r*t/n.length);return function(){for(var a=arguments.length>0&&void 0!==arguments[0]?arguments[0]:t,i="";;)for(var u=o(e),c=0|e;c--;)if((i+=n[u[c]&r]||"").length>=a)return i}},o=(function(o){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:21;t(o,0|r,n)}("abc123",10),customNAnoid());console.log(o)}();
-//# sourceMappingURL=index.5d850569.js.map
